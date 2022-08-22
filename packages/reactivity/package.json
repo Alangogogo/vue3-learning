@@ -1,0 +1,23 @@
+{
+  "name": "@vue/reactivity",
+  "version": "1.0.0",
+  "description": "响应式模块",
+  "main": "index.js",
+  "modules": "./dist/reactivity.esm.bundler.js",
+  "unpkg": "./dist/reactivity.global.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Alan12031020@163.com",
+  "license": "ISC",
+  "buildOptions": {
+    "name": "VueReactivity",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@vue/shared": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@vue/shared",
+  "version": "1.0.0",
+  "description": "共享模块",
+  "main": "index.js",
+  "modules": "./dist/shared.esm.bundler.js",
+  "unpkg": "./dist/shared.global.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Alan12031020@163.com",
+  "license": "ISC",
+  "buildOptions": {
+    "name": "VueShared",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  }
+}
